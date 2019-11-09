@@ -1,18 +1,21 @@
 {
-  "name": "draw2d",
+  "name": "@AlaaSarhan/draw2d",
   "version": "1.0.19",
   "description": "JS drag&drop lib",
   "main": "dist/draw2d.js",
   "files": [
-    "dist"
+    "dist/draw2d.js",
+    "dist/draw2d.min.js",
+    "dist/draw2d.js.map"
   ],
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "scripts": {
     "build": "webpack --env dev && webpack --env build",
     "dev": "webpack --progress --colors --watch --env dev"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/freegroup/draw2d.git"
+    "url": "https://github.com/AlaaSarhan/draw2d.git"
   },
   "keywords": [
     "draw2d",
