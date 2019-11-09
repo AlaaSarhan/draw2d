@@ -1,5 +1,5 @@
 {
-  "name": "@AlaaSarhan/draw2d",
+  "name": "@sarhanalaa/draw2d",
   "version": "1.0.19",
   "description": "JS drag&drop lib",
   "main": "dist/draw2d.js",
@@ -8,9 +8,8 @@
     "dist/draw2d.min.js",
     "dist/draw2d.js.map"
   ],
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "scripts": {
-    "build": "webpack --env dev && webpack --env build",
+    "build": "webpack --env build",
     "dev": "webpack --progress --colors --watch --env dev"
   },
   "repository": {
@@ -26,9 +25,9 @@
   "author": "Andreas Herz",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/freegroup/draw2d/issues"
+    "url": "https://github.com/AlaaSarhan/draw2d/issues"
   },
-  "homepage": "https://github.com/freegroup/draw2d",
+  "homepage": "https://github.com/AlaaSarhan/draw2d",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
