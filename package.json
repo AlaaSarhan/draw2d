@@ -3,6 +3,9 @@
   "version": "1.0.19",
   "description": "JS drag&drop lib",
   "main": "dist/draw2d.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "webpack --env dev && webpack --env build",
     "dev": "webpack --progress --colors --watch --env dev"
