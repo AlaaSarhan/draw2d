@@ -23,8 +23,4 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-          registry-url: https://npm.pkg.github.com/
-          scope: "@AlaaSarhan"
-      - run: npm publish --registry https://npm.pkg.github.com/
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_GPK_TOKEN}}
+      - run: npm publish --registry https://npm.pkg.github.com/AlaaSarhan
